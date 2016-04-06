@@ -12,5 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollview;
 
+@property (strong, nonatomic) IBOutlet UIButton *btnLike;
+@property (strong, nonatomic) IBOutlet UIButton *btnDislike;
+
 @end
 

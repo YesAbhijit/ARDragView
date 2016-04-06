@@ -70,6 +70,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="ARDragViewDemo" id="vcb-Ty-qXF"/>
                     <connections>
+                        <outlet property="btnDislike" destination="LUW-rN-fjC" id="PJC-Io-qiS"/>
+                        <outlet property="btnLike" destination="Y28-8b-Vlu" id="rCY-mO-NnS"/>
                         <outlet property="scrollview" destination="S7T-S3-qX7" id="2JO-wM-oAS"/>
                     </connections>
                 </viewController>
