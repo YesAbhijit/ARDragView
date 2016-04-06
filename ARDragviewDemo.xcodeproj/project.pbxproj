@@ -13,6 +13,9 @@
 		1814F8D41CB4F5FB00C5E8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814F8D21CB4F5FB00C5E8CB /* Main.storyboard */; };
 		1814F8D61CB4F5FB00C5E8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814F8D51CB4F5FB00C5E8CB /* Assets.xcassets */; };
 		1814F8D91CB4F5FB00C5E8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814F8D71CB4F5FB00C5E8CB /* LaunchScreen.storyboard */; };
+		1814F8E11CB4F7C000C5E8CB /* disc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814F8E01CB4F7C000C5E8CB /* disc.png */; };
+		1814F8E41CB4F82D00C5E8CB /* ARDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814F8E31CB4F82D00C5E8CB /* ARDragView.m */; };
+		1814F8E61CB4F8B500C5E8CB /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814F8E51CB4F8B500C5E8CB /* man.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		1814F8D51CB4F5FB00C5E8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1814F8D81CB4F5FB00C5E8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1814F8DA1CB4F5FB00C5E8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1814F8E01CB4F7C000C5E8CB /* disc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disc.png; sourceTree = "<group>"; };
+		1814F8E21CB4F82D00C5E8CB /* ARDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDragView.h; sourceTree = "<group>"; };
+		1814F8E31CB4F82D00C5E8CB /* ARDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDragView.m; sourceTree = "<group>"; };
+		1814F8E51CB4F8B500C5E8CB /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +65,15 @@
 		1814F8C81CB4F5FB00C5E8CB /* ARDragviewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1814F8E01CB4F7C000C5E8CB /* disc.png */,
+				1814F8E51CB4F8B500C5E8CB /* man.png */,
 				1814F8CC1CB4F5FB00C5E8CB /* AppDelegate.h */,
 				1814F8CD1CB4F5FB00C5E8CB /* AppDelegate.m */,
 				1814F8CF1CB4F5FB00C5E8CB /* ViewController.h */,
 				1814F8D01CB4F5FB00C5E8CB /* ViewController.m */,
 				1814F8D21CB4F5FB00C5E8CB /* Main.storyboard */,
+				1814F8E21CB4F82D00C5E8CB /* ARDragView.h */,
+				1814F8E31CB4F82D00C5E8CB /* ARDragView.m */,
 				1814F8D51CB4F5FB00C5E8CB /* Assets.xcassets */,
 				1814F8D71CB4F5FB00C5E8CB /* LaunchScreen.storyboard */,
 				1814F8DA1CB4F5FB00C5E8CB /* Info.plist */,
@@ -137,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1814F8D91CB4F5FB00C5E8CB /* LaunchScreen.storyboard in Resources */,
+				1814F8E61CB4F8B500C5E8CB /* man.png in Resources */,
 				1814F8D61CB4F5FB00C5E8CB /* Assets.xcassets in Resources */,
+				1814F8E11CB4F7C000C5E8CB /* disc.png in Resources */,
 				1814F8D41CB4F5FB00C5E8CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +165,7 @@
 				1814F8D11CB4F5FB00C5E8CB /* ViewController.m in Sources */,
 				1814F8CE1CB4F5FB00C5E8CB /* AppDelegate.m in Sources */,
 				1814F8CB1CB4F5FB00C5E8CB /* main.m in Sources */,
+				1814F8E41CB4F82D00C5E8CB /* ARDragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
